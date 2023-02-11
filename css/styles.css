@@ -558,6 +558,7 @@ a.list:visited {
   color: #ffffff;
 }
 .footer-soc {
+  display: block;
 }
 .footer-soc-list {
   margin-top: 20px;
@@ -586,6 +587,32 @@ a.list:visited {
 .footer-soc-link:focus {
   background-color: #2196f3;
 }
+
+.footer-form{
+box-sizing: border-box;
+width: 570px;
+height: 86px;
+left: 815px;
+top: 2748px;
+
+}
+.footer-email{
+  display: flex;
+  
+}
+.footer-email input {
+  margin-top: 20px;
+  padding: 15px 16px;
+  width: 358px;
+  height: 50px;
+  left: 815px;
+  top: 2784px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  background-color: transparent;
+  border-radius: 4px; 
+}
+
 .end {
 }
 /*portfolio*/
