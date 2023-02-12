@@ -389,14 +389,21 @@
             </li>
           </ul>
         </div>
-        <label for="user_email">Підпишіться на розсилку</label>
-        <div class="footer-form">
-          <form class="footer-email">
-            
-            <input type="email" name="email" id="user_email" placeholder="E-mail"/>    
-            <button type="submit">Submit</button>
-          </form>
-        </div>  
+        <div class="form-input">
+          <label for="user_email" class="footer-label">Підпишіться на розсилку</label>
+          <div class="footer-form">
+            <form class="footer-email">
+              <input type="email" class="footer-email-form" name="email" id="user_email" placeholder="E-mail"/>    
+              <div class="form-but">
+                <button type="submit" class="footer-form-but">Підписатися
+                  <svg class="footer-icons-for" width="24" height="24">
+                    <use href="./images/icons.svg#icon-icon-send-1"></use>
+                  </svg>
+                </button>
+              </div>
+            </form>
+          </div>  
+        </div>
       </div>
     </div>
   </footer>
