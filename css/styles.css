@@ -280,7 +280,7 @@ a.list:visited {
   transition: 250ms var(--tran);
 }
 
-.modal-button: {
+.modal-button:hover {
   fill: #2196F3;
   transition: 250ms var(--tran);
 
@@ -292,12 +292,6 @@ a.list:visited {
   justify-content: center;
   transition: 250ms var(--tran);
 }
-
-.modal-button-icons:focus .modal-button-icons:hover .modal-button-icons:active {
-  color: #2196F3;
-
-}
-
 .modal-button:focus .modal-button-icons {
 
   fill: #2196F3;
@@ -342,10 +336,7 @@ a.list:visited {
 
 }
 
-.form-position:hover .icon-name {
-  fill: #2196F3;
-  transition: 250ms var(--tran);
-}
+
 
 .icon-name {
   position: absolute;
@@ -389,12 +380,32 @@ a.list:visited {
   fill: #2196F3;
   transition: 250ms var(--tran);
 }
+.form-modal-email:focus {
+  border: 1px solid #2196F3;
+  fill: #2196F3;
+  transition: 250ms var(--tran);
+}
 
 .icon-name:hover {
   fill: #2196F3;
   transition: 250ms var(--tran);
 }
-
+.icon-name:focus {
+  fill: #2196F3;
+  transition: 250ms var(--tran);
+}
+.form-position:hover .icon-name {
+  fill: #2196F3;
+  transition: 250ms var(--tran);
+}
+.form-position:focus .icon-name {
+  fill: #2196F3;
+  transition: 250ms var(--tran);
+}
+.form-position:active .icon-name {
+  fill: #2196F3;
+  transition: 250ms var(--tran);
+}
 .modal-user-name label {
   margin-bottom: 4px;
   font-weight: 400;
